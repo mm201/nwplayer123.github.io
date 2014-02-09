@@ -1,0 +1,129 @@
+body{
+	background:url('../img/landingbg.jpg') no-repeat;
+	font-family: "Lato", sans-serif;
+	-webkit-background-size: 100% 100%;
+	background-attachment: fixed;
+	-moz-background-size: 100% 100%;
+	background-size: 100% 100%;
+	padding:0px;
+	margin:0px;
+	left:0px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+
+}
+
+a:visited {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+a:active {
+	text-decoration: none;
+	color: white;
+}
+
+#menubb {
+	position:absolute;
+	height:85px;
+	color:white;
+	width:100%;
+	z-index:5;
+	top:0px!important;
+	background-color: #2e2e33;
+	outline: #17171a solid 5px;
+}
+
+#menucontbb {
+	margin:0 auto;
+	height:100%;
+	width:50%;
+}
+
+#menuname {
+	vertical-align:middle;
+	display:inline-block;
+	line-height: 85px;
+	float:left;
+}
+
+#nwplayer123 {
+	font-family: "Montserrat";
+	font-weight:bolder;
+	font-size:35px;
+}
+
+#linkbb {
+	vertical-align:middle;
+	display:inline-block;
+	line-height: 85px;
+	height:85px;
+	float:right;
+}
+
+.menulink {
+  	vertical-align: middle;
+	display: inline-block;
+	text-decoration:none;
+	font-weight:lighter;
+  	line-height: normal;
+	font-size:20px;
+}
+
+#mainbodybb {
+	position:absolute;
+	top:100px;
+	height:500px;
+	width:100%;
+	clear:both;
+}
+
+#maincontbb {
+	position:relative;
+	width:50%;
+	background-color: #2e2e33;
+	border: #17171a solid 5px;
+	border-radius:15px;
+	margin:0 auto;
+	z-index:15;
+}
+
+#maincont {
+	font-family:"Lato";
+	font-size:30px;
+	color:white;
+	padding:35px;
+	line-height:40px;
+}
+#iconbb {
+	padding-top:25px;
+	width:100%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#twitter, #github {
+    width: 150px;
+    vertical-align: top;
+    display: inline-block;
+    zoom: 1;
+    font-size:90px;
+    *display:inline;
+}
+
+#linkedin, #youtube {
+	width:175px;
+    vertical-align: top;
+    display: inline-block;
+    zoom: 1;
+    font-size:90px;
+    *display:inline;
+}
