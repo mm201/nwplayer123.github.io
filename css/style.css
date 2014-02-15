@@ -1,45 +1,31 @@
 body{
 	background:url('../img/landingbg.jpg') no-repeat;
-	font-family: "Lato", sans-serif;
 	-webkit-background-size: 100% 100%;
-	background-attachment: fixed;
 	-moz-background-size: 100% 100%;
+	font-family: "Lato", Sans-Serif;
+	background-attachment: fixed;
 	background-size: 100% 100%;
 	padding:0px;
 	margin:0px;
-	left:0px;
+	width:0px;
 }
 
-a {
+a, a:visited, a:hover, a:active {
 	text-decoration: none;
 	color: white;
 
-}
-
-a:visited {
-	text-decoration: none;
-	color: white;
-}
-
-a:hover {
-	text-decoration: none;
-	color: white;
-}
-
-a:active {
-	text-decoration: none;
-	color: white;
 }
 
 #menubb {
+	outline: #17171a solid 5px;
+	background-color: #2e2e33;
 	position:absolute;
 	height:85px;
-	color:white;
 	width:100%;
-	z-index:5;
-	top:0px!important;
-	background-color: #2e2e33;
-	outline: #17171a solid 5px;
+	top:0px;
+	color:white;
+	z-index:2;
+	left:0px!important;
 }
 
 #menucontbb {
@@ -49,20 +35,18 @@ a:active {
 }
 
 #menuname {
-	vertical-align:middle;
 	display:inline-block;
-	line-height: 85px;
+	line-height:85px;
 	float:left;
 }
 
 #nwplayer123 {
-	font-family: "Montserrat";
+	font-family:"Montserrat";
 	font-weight:bolder;
 	font-size:35px;
 }
 
 #linkbb {
-	vertical-align:middle;
 	display:inline-block;
 	line-height: 85px;
 	height:85px;
@@ -70,60 +54,80 @@ a:active {
 }
 
 .menulink {
-  	vertical-align: middle;
 	display: inline-block;
 	text-decoration:none;
 	font-weight:lighter;
-  	line-height: normal;
+  	line-height:normal;
 	font-size:20px;
+	padding:0 15px;
 }
 
 #mainbodybb {
 	position:absolute;
-	top:100px;
-	height:500px;
 	width:100%;
-	clear:both;
+	top:100px;
 }
 
 #maincontbb {
-	position:relative;
-	width:50%;
 	background-color: #2e2e33;
 	border: #17171a solid 5px;
 	border-radius:15px;
+	position:relative;
 	margin:0 auto;
-	z-index:15;
+	width:50%;
+	z-index:1;
 }
 
 #maincont {
 	font-family:"Lato";
-	font-size:30px;
-	color:white;
-	padding:35px;
 	line-height:40px;
+	font-size:30px;
+	padding:35px;
+	color:white;
 }
 #iconbb {
-	padding-top:25px;
-	width:100%;
-	margin: 0px auto;
 	text-align: center;
+	padding-top:25px;
+	margin: 0px auto;
+	width:100%;
+}
+
+#twitter, #github, #linkedin, #youtube, #email {
+	display:inline-block;
+	vertical-align:top;
+	zoom:1;
 }
 
 #twitter, #github {
-    width: 150px;
-    vertical-align: top;
-    display: inline-block;
-    zoom: 1;
-    font-size:90px;
-    *display:inline;
+	font-size:90px;
+	width: 150px;
 }
 
 #linkedin, #youtube {
+	font-size:90px;
 	width:175px;
-    vertical-align: top;
-    display: inline-block;
-    zoom: 1;
-    font-size:90px;
-    *display:inline;
+}
+
+#email {
+	position:relative;
+	font-size:128px;
+	width:175px;
+	height:0px;
+	top:-18px;
+}
+
+#footerbb {
+	background-color: #17171a;
+	position:absolute;
+	height:60px;
+	width:100%;
+	color:white;
+	bottom:0;
+}
+
+#footertext {
+	text-align:center;
+	line-height:60px;
+	margin:0 auto;
+	width:50%;
 }
